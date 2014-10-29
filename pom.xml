@@ -4,7 +4,7 @@
     <groupId>uk.ac.ebi.pride.archive</groupId>
     <artifactId>archive-utils</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.11-SNAPSHOT</version>
+    <version>0.1.10</version>
     <name>archive-utils</name>
 
     <parent>
@@ -14,9 +14,9 @@
     </parent>
 
     <scm>
-        <connection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/trunk</connection>
-        <developerConnection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/trunk</developerConnection>
-        <url>https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/trunk</url>
+        <connection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/tags/archive-utils-0.1.10</connection>
+        <developerConnection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/tags/archive-utils-0.1.10</developerConnection>
+        <url>https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/tags/archive-utils-0.1.10</url>
     </scm>
 
     <properties>

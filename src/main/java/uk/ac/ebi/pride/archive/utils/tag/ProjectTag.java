@@ -17,7 +17,6 @@ public enum ProjectTag {
     C_HUMAN_PROTEOME_PROJECT ("Chromosome-centric Human Proteome Project (C-HPP)", "C-HPP", ProjectTagType.PARENT_PROJECT),
     BILS_PROJECT ("Bioinformatics Infrastructure for Life Sciences (BILS) network (Sweden)", "BILS", ProjectTagType.PARENT_PROJECT),
     PRIME_XS_PROJECT ("PRIME-XS Project", "PRIME-XS", ProjectTagType.PARENT_PROJECT),
-    HIPSIC_PROJECT("Human Induced Pluripotent Stem Cells Initiative", "HipSci", ProjectTagType.PARENT_PROJECT),
     CPTAC_CONSORTIUM ("CPTAC Consortium", "CPTAC", ProjectTagType.PARENT_PROJECT),
     BIOLOGICAL ("Biological", "Biological", ProjectTagType.PRIDE_INTERNAL),
     BIOMEDICAL ("Biomedical", "Biomedical", ProjectTagType.PRIDE_INTERNAL),
