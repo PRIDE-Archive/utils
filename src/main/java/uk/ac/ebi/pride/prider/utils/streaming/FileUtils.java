@@ -1,4 +1,4 @@
-package uk.ac.ebi.pride.archive.utils.streaming;
+package uk.ac.ebi.pride.prider.utils.streaming;
 
 import org.apache.commons.io.IOUtils;
 

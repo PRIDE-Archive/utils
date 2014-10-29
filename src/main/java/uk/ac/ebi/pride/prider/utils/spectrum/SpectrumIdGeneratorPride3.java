@@ -1,16 +1,14 @@
-package uk.ac.ebi.pride.archive.utils.spectrum;
+package uk.ac.ebi.pride.prider.utils.spectrum;
 
 /**
  * Spectrum id generator for PRIDE 3
- *
- * e.g. PXD000001;file.mgf;spectrum=1
  *
  * @author Rui Wang
  * @version $Id$
  */
 public class SpectrumIdGeneratorPride3 implements SpectrumIDGenerator {
 
-    public static final String SEPARATOR = ";";
+    public static final String SEPARATOR = ">>";
 
     @Override
     public String generate(String... parts) {

@@ -1,4 +1,4 @@
-package uk.ac.ebi.pride.archive.utils.spectrum;
+package uk.ac.ebi.pride.prider.utils.spectrum;
 
 import org.junit.Test;
 
@@ -15,6 +15,6 @@ public class SpectrumIdGeneratorPride3Test {
 
         String id = spectrumIdGeneratorPride3.generate("PXD000001", "file.mgf", "index=1");
 
-        assertThat("Spectrum id doesn't match", id.equals("PXD000001;file.mgf;index=1"));
+        assertThat("Spectrum id doesn't match", id.equals("PXD000001>>file.mgf>>index=1"));
     }
 }
