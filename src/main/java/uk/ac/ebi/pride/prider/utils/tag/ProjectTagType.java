@@ -1,4 +1,4 @@
-package uk.ac.ebi.pride.archive.utils.tag;
+package uk.ac.ebi.pride.prider.utils.tag;
 
 /**
  * Type of the project tags
