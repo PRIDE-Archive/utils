@@ -1,4 +1,4 @@
-package uk.ac.ebi.pride.archive.utils.cv;
+package uk.ac.ebi.pride.prider.utils.cv;
 
 /**
  * An enumeration of common ontologies with their name

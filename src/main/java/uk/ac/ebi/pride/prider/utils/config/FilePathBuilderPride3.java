@@ -1,4 +1,4 @@
-package uk.ac.ebi.pride.archive.utils.config;
+package uk.ac.ebi.pride.prider.utils.config;
 
 import uk.ac.ebi.pride.archive.dataprovider.file.ProjectFileProvider;
 import uk.ac.ebi.pride.archive.dataprovider.project.ProjectProvider;

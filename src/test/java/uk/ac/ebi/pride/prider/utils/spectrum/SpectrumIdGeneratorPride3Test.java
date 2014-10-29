@@ -1,4 +1,4 @@
-package uk.ac.ebi.pride.archive.utils.spectrum;
+package uk.ac.ebi.pride.prider.utils.spectrum;
 
 import org.junit.Test;
 
