@@ -13,14 +13,8 @@
         <version>1.0.1</version>
     </parent>
 
-    <scm>
-        <connection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/trunk</connection>
-        <developerConnection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/trunk</developerConnection>
-        <url>https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/trunk</url>
-    </scm>
-
     <properties>
-        <archive.data.provider.api.version>2.0.1</archive.data.provider.api.version>
+        <archive.data.provider.api.version>2.0.6</archive.data.provider.api.version>
         <javax.servlet.version>3.0.0.v201112011016</javax.servlet.version>
         <commons.io.version>2.4</commons.io.version>
     </properties>
@@ -101,5 +95,11 @@
             </snapshots>
         </repository>
     </repositories>
+
+    <scm>
+        <connection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride-archive/utils/trunk</connection>
+        <developerConnection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride-archive/utils/trunk</developerConnection>
+        <url>https://svn.ebi.ac.uk/pride-repo/pride-archive/utils/trunk</url>
+    </scm>
 
 </project>
