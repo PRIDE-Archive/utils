@@ -1,7 +1,7 @@
-package uk.ac.ebi.pride.archive.utils.config;
+package uk.ac.ebi.pride.prider.utils.config;
 
-import uk.ac.ebi.pride.archive.dataprovider.file.ProjectFileProvider;
-import uk.ac.ebi.pride.archive.dataprovider.project.ProjectProvider;
+import uk.ac.ebi.pride.prider.dataprovider.file.ProjectFileProvider;
+import uk.ac.ebi.pride.prider.dataprovider.project.ProjectProvider;
 
 import java.io.File;
 import java.util.Calendar;
@@ -24,11 +24,13 @@ public class FilePathBuilderPride3 implements FilePathBuilder {
                     + File.separator + calendar.get(Calendar.YEAR)
                     + File.separator + (month < 10 ? "0" : "") + month
                     + File.separator + project.getAccession()
-                    + (file == null ? "" : File.separator + file.getFileSource().getFolderName() + File.separator + file.getFileName());
+                    + File.separator + file.getFileSource().getFolderName()
+                    + File.separator + file.getFileName();
         } else {
             return prefix
                     + File.separator + project.getAccession()
-                    + (file == null ? "" : File.separator + file.getFileSource().getFolderName() + File.separator + file.getFileName());
+                    + File.separator + file.getFileSource().getFolderName()
+                    + File.separator + file.getFileName();
         }
 
     }
