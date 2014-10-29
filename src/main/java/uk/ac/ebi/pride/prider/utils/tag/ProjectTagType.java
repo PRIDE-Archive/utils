@@ -1,4 +1,4 @@
-package uk.ac.ebi.pride.archive.utils.tag;
+package uk.ac.ebi.pride.prider.utils.tag;
 
 /**
  * Type of the project tags
@@ -8,6 +8,5 @@ package uk.ac.ebi.pride.archive.utils.tag;
  */
 public enum ProjectTagType {
     PARENT_PROJECT,
-    PRIDE_INTERNAL,
-    PRIDE_HIGHLIGHTED
+    PRIDE_INTERNAL
 }

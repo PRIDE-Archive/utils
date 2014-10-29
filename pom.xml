@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>uk.ac.ebi.pride.archive</groupId>
-    <artifactId>archive-utils</artifactId>
+    <groupId>uk.ac.ebi.pride.prider</groupId>
+    <artifactId>prider-utils</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.11-SNAPSHOT</version>
-    <name>archive-utils</name>
+    <version>0.1.6</version>
+    <name>prider-utils</name>
 
     <parent>
         <groupId>uk.ac.ebi.pride.maven</groupId>
@@ -14,13 +14,13 @@
     </parent>
 
     <scm>
-        <connection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/trunk</connection>
-        <developerConnection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/trunk</developerConnection>
-        <url>https://svn.ebi.ac.uk/pride-repo/pride_r/archive-utils/trunk</url>
+        <connection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/prider-utils/tags/prider-utils-0.1.6</connection>
+        <developerConnection>scm:svn:https://svn.ebi.ac.uk/pride-repo/pride_r/prider-utils/tags/prider-utils-0.1.6</developerConnection>
+        <url>https://svn.ebi.ac.uk/pride-repo/pride_r/prider-utils/tags/prider-utils-0.1.6</url>
     </scm>
 
     <properties>
-        <archive.data.provider.api.version>2.0.1</archive.data.provider.api.version>
+        <prider.data.provider.api.version>1.1.1</prider.data.provider.api.version>
         <javax.servlet.version>3.0.0.v201112011016</javax.servlet.version>
         <commons.io.version>2.4</commons.io.version>
     </properties>
@@ -29,9 +29,9 @@
 
         <!--prider data provider API-->
         <dependency>
-            <groupId>uk.ac.ebi.pride.archive</groupId>
-            <artifactId>archive-data-provider-api</artifactId>
-            <version>${archive.data.provider.api.version}</version>
+            <groupId>uk.ac.ebi.pride.prider</groupId>
+            <artifactId>prider-data-provider-api</artifactId>
+            <version>${prider.data.provider.api.version}</version>
         </dependency>
 
         <!--Apache commons-->
