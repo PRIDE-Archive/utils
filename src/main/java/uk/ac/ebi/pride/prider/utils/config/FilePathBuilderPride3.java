@@ -1,7 +1,7 @@
-package uk.ac.ebi.pride.archive.utils.config;
+package uk.ac.ebi.pride.prider.utils.config;
 
-import uk.ac.ebi.pride.archive.dataprovider.file.ProjectFileProvider;
-import uk.ac.ebi.pride.archive.dataprovider.project.ProjectProvider;
+import uk.ac.ebi.pride.prider.dataprovider.file.ProjectFileProvider;
+import uk.ac.ebi.pride.prider.dataprovider.project.ProjectProvider;
 
 import java.io.File;
 import java.util.Calendar;
