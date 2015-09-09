@@ -24,6 +24,7 @@ public enum ProjectTag {
     TECHNICAL ("Technical", "Technical", ProjectTagType.PRIDE_INTERNAL),
     CARDIOVASCULAR ("Cardiovascular", "Cardiovascular", ProjectTagType.PRIDE_INTERNAL),
     METAPROTEMOICS ("Metaproteomics", "Metaproteomics", ProjectTagType.PRIDE_INTERNAL),
+    REFERENCE ( "Reference", "RefData", ProjectTagType.PRIDE_INTERNAL),
     HIGHLIGHTED ("Highlighted", "Highlighted", ProjectTagType.PRIDE_HIGHLIGHTED);
 
     private String name;
