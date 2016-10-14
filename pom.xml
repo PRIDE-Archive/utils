@@ -4,7 +4,7 @@
     <groupId>uk.ac.ebi.pride.archive</groupId>
     <artifactId>archive-utils</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.14-SNAPSHOT</version>
+    <version>0.1.13-SNAPSHOT</version>
     <name>archive-utils</name>
 
     <parent>
@@ -109,7 +109,6 @@
         <connection>scm:git:https://github.com/PRIDE-Archive/utils.git</connection>
         <developerConnection>scm:git:https://github.com/PRIDE-Archive/utils.git</developerConnection>
         <url>scm:git:https://github.com/PRIDE-Archive/utils.git</url>
-      <tag>HEAD</tag>
-  </scm>
+    </scm>
 
 </project>
