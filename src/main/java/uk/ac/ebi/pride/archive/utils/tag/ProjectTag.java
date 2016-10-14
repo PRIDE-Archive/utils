@@ -39,6 +39,7 @@ public enum ProjectTag {
     PRIME_XS_PROJECT ("PRIME-XS Project", "PRIME-XS", ProjectTagType.PARENT_PROJECT),
     HIPSIC_PROJECT("Human Induced Pluripotent Stem Cells Initiative", "HipSci", ProjectTagType.PARENT_PROJECT),
     CPTAC_CONSORTIUM ("CPTAC Consortium", "CPTAC", ProjectTagType.PARENT_PROJECT),
+    MALARIA_HOST_PATHOGEN_INTERACTION_CENTER ("Malaria Host Pathogen Interaction Center (MaHPIC)", "MaHPIC", ProjectTagType.PARENT_PROJECT),
     BIOLOGICAL ("Biological", "Biological", ProjectTagType.PRIDE_INTERNAL),
     BIOMEDICAL ("Biomedical", "Biomedical", ProjectTagType.PRIDE_INTERNAL),
     TECHNICAL ("Technical", "Technical", ProjectTagType.PRIDE_INTERNAL),
