@@ -12,7 +12,20 @@ import java.util.LinkedHashSet;
  * @version $Id$
  */
 public enum ProjectTag {
+    BIOLOGICAL ("Biological", "Biological", ProjectTagType.PRIDE_INTERNAL),
+    BIOMEDICAL ("Biomedical", "Biomedical", ProjectTagType.PRIDE_INTERNAL),
+    TECHNICAL ("Technical", "Technical", ProjectTagType.PRIDE_INTERNAL),
+    CARDIOVASCULAR ("Cardiovascular", "Cardiovascular", ProjectTagType.PRIDE_INTERNAL),
+    METAPROTEMOICS ("Metaproteomics", "Metaproteomics", ProjectTagType.PRIDE_INTERNAL),
+    REFERENCE ( "Reference", "RefData", ProjectTagType.PRIDE_INTERNAL),
+    HIGHLIGHTED ("Highlighted", "Highlighted", ProjectTagType.PRIDE_HIGHLIGHTED),
+    BILS_PROJECT ("Bioinformatics Infrastructure for Life Sciences (BILS) network (Sweden)", "BILS", ProjectTagType.PARENT_PROJECT),
+    PRIME_XS_PROJECT ("PRIME-XS Project", "PRIME-XS", ProjectTagType.PARENT_PROJECT),
+    HIPSIC_PROJECT("Human Induced Pluripotent Stem Cells Initiative", "HipSci", ProjectTagType.PARENT_PROJECT),
+    CPTAC_CONSORTIUM ("CPTAC Consortium", "CPTAC", ProjectTagType.PARENT_PROJECT),
     HUMAN_PROTEOME_PROJECT ("Human Proteome Project", "HPP", ProjectTagType.PARENT_PROJECT),
+    C_HUMAN_PROTEOME_PROJECT ("Chromosome-centric Human Proteome Project (C-HPP)", "C-HPP", ProjectTagType.PARENT_PROJECT),
+    MALARIA_HOST_PATHOGEN_INTERACTION_CENTER ("Malaria Host Pathogen Interaction Center (MaHPIC)", "MaHPIC", ProjectTagType.PARENT_PROJECT),
     BD_HUMAN_PROTEOME_PROJECT ("Biology/Disease-Driven Human Proteome Project (B/D-HPP)", "B/D-HPP", ProjectTagType.PARENT_PROJECT),
     BD_ANTIBODIES_HUMAN_PROTEOME_PROJECT ("Antibodies (B/D-HPP)", "HAI (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     BD_BRAIN_HUMAN_PROTEOME_PROJECT ("Human Brain Proteome Project (HUPO_HBPP) (B/D-HPP)", "HBPP (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
@@ -33,21 +46,7 @@ public enum ProjectTag {
     BD_PROTEIN_MISFOLDING_AGGREGATION_HUMAN_PROTEOME_PROJECT ("Protein Misfolding and Aggregation (B/D-HPP)", "Protein Misfolding (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     BD_STEM_CELLS_HUMAN_PROTEOME_PROJECT ("Stems Cells (B/D-HPP)", "Stems Cells (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     BD_SKELETAL_MUSCLEHUMAN_PROTEOME_PROJECT ("Skeletal Muscle Proteome (B/D-HPP)", "Skeletal Muscle Proteome (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
-    BD_TOXICOPROTEOMICS_HUMAN_PROTEOME_PROJECT ("Toxicoproteomics (B/D-HPP)", "Toxicoproteomics (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
-    C_HUMAN_PROTEOME_PROJECT ("Chromosome-centric Human Proteome Project (C-HPP)", "C-HPP", ProjectTagType.PARENT_PROJECT),
-    BILS_PROJECT ("Bioinformatics Infrastructure for Life Sciences (BILS) network (Sweden)", "BILS", ProjectTagType.PARENT_PROJECT),
-    PRIME_XS_PROJECT ("PRIME-XS Project", "PRIME-XS", ProjectTagType.PARENT_PROJECT),
-    HIPSIC_PROJECT("Human Induced Pluripotent Stem Cells Initiative", "HipSci", ProjectTagType.PARENT_PROJECT),
-    CPTAC_CONSORTIUM ("CPTAC Consortium", "CPTAC", ProjectTagType.PARENT_PROJECT),
-    MALARIA_HOST_PATHOGEN_INTERACTION_CENTER ("Malaria Host Pathogen Interaction Center (MaHPIC)", "MaHPIC", ProjectTagType.PARENT_PROJECT),
-    BIOLOGICAL ("Biological", "Biological", ProjectTagType.PRIDE_INTERNAL),
-    BIOMEDICAL ("Biomedical", "Biomedical", ProjectTagType.PRIDE_INTERNAL),
-    TECHNICAL ("Technical", "Technical", ProjectTagType.PRIDE_INTERNAL),
-    CARDIOVASCULAR ("Cardiovascular", "Cardiovascular", ProjectTagType.PRIDE_INTERNAL),
-    METAPROTEMOICS ("Metaproteomics", "Metaproteomics", ProjectTagType.PRIDE_INTERNAL),
-    REFERENCE ( "Reference", "RefData", ProjectTagType.PRIDE_INTERNAL),
-    HIGHLIGHTED ("Highlighted", "Highlighted", ProjectTagType.PRIDE_HIGHLIGHTED);
-
+    BD_TOXICOPROTEOMICS_HUMAN_PROTEOME_PROJECT ("Toxicoproteomics (B/D-HPP)", "Toxicoproteomics (B/D-HPP)", ProjectTagType.PARENT_PROJECT);
     private String name;
     private String shortName;
     private ProjectTagType type;
