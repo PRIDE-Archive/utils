@@ -23,6 +23,7 @@ public enum ProjectTag {
     PRIME_XS_PROJECT ("PRIME-XS Project", "PRIME-XS", ProjectTagType.PARENT_PROJECT),
     HIPSIC_PROJECT("Human Induced Pluripotent Stem Cells Initiative", "HipSci", ProjectTagType.PARENT_PROJECT),
     CPTAC_CONSORTIUM ("CPTAC Consortium", "CPTAC", ProjectTagType.PARENT_PROJECT),
+    PROTEOME_TOOLS ("ProteomeTools", "ProteomeTools", ProjectTagType.PARENT_PROJECT),
     HUMAN_PROTEOME_PROJECT ("Human Proteome Project", "HPP", ProjectTagType.PARENT_PROJECT),
     C_HUMAN_PROTEOME_PROJECT ("Chromosome-centric Human Proteome Project (C-HPP)", "C-HPP", ProjectTagType.PARENT_PROJECT),
     MALARIA_HOST_PATHOGEN_INTERACTION_CENTER ("Malaria Host Pathogen Interaction Center (MaHPIC)", "MaHPIC", ProjectTagType.PARENT_PROJECT),
