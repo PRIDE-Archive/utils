@@ -26,7 +26,7 @@ public enum ProjectTag {
     PROTEOME_TOOLS ("ProteomeTools", "ProteomeTools", ProjectTagType.PARENT_PROJECT),
     HUMAN_PROTEOME_PROJECT ("Human Proteome Project", "HPP", ProjectTagType.PARENT_PROJECT),
     C_HUMAN_PROTEOME_PROJECT ("Chromosome-centric Human Proteome Project (C-HPP)", "C-HPP", ProjectTagType.PARENT_PROJECT),
-    MALARIA_HOST_PATHOGEN_INTERACTION_CENTER ("Malaria Host Pathogen Interaction Center (MaHPIC)", "MaHPIC", ProjectTagType.PARENT_PROJECT),
+    MALARIA_HOST_PATHOGEN_INTERACTION_CENTER ("Malaria Host-Pathogen Interaction Center (MaHPIC)", "MaHPIC", ProjectTagType.PARENT_PROJECT),
     BD_HUMAN_PROTEOME_PROJECT ("Biology/Disease-Driven Human Proteome Project (B/D-HPP)", "B/D-HPP", ProjectTagType.PARENT_PROJECT),
     BD_ANTIBODIES_HUMAN_PROTEOME_PROJECT ("Antibodies (B/D-HPP)", "HAI (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     BD_BRAIN_HUMAN_PROTEOME_PROJECT ("Human Brain Proteome Project (HUPO_HBPP) (B/D-HPP)", "HBPP (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
