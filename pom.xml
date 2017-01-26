@@ -99,13 +99,6 @@
         </plugins>
     </build>
 
-    <repositories>
-        <repository>
-            <id>nexus-ebi-release-repo</id>
-            <url>http://www.ebi.ac.uk/Tools/maven/repos/content/groups/ebi-repo/</url>
-        </repository>
-    </repositories>
-
     <scm>
         <connection>scm:git:https://github.com/PRIDE-Archive/utils.git</connection>
         <developerConnection>scm:git:https://github.com/PRIDE-Archive/utils.git</developerConnection>
