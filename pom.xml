@@ -128,7 +128,7 @@
     <scm>
         <connection>scm:git:https://github.com/PRIDE-Archive/utils.git</connection>
         <developerConnection>scm:git:https://github.com/PRIDE-Archive/utils.git</developerConnection>
-        <url>scm:git:https://github.com/PRIDE-Archive/utils.git</url>
+        <url>https://github.com/PRIDE-Archive/utils.git</url>
       <tag>HEAD</tag>
   </scm>
 
