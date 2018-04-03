@@ -49,7 +49,7 @@ public enum ProjectTag {
     BD_SKELETAL_MUSCLE_HUMAN_PROTEOME_PROJECT ("Skeletal Muscle Proteome (B/D-HPP)", "Skeletal Muscle Proteome (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     BD_TOXICOPROTEOMICS_HUMAN_PROTEOME_PROJECT ("Toxicoproteomics (B/D-HPP)", "Toxicoproteomics (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     MS_RESOURCE_PILLAR_2018_HUMAN_PROTEOME_PROJECT ("MS Resource Pillar 2018 (HUPO-HPP)", "HUPO-HPP-MSResourcePillar2018", ProjectTagType.PARENT_PROJECT),
-    MITOCHONDIA_HUMAN_PROTEOME_PROJECT ("Mitochondria (HPP)", "MTHPPP", ProjectTagType.PARENT_PROJECT),
+    MITOCHONDRIA_HUMAN_PROTEOME_PROJECT ("Mitochondria (HPP)", "MTHPPP", ProjectTagType.PARENT_PROJECT),
     CHINA_HUMAN_PROTEOME_PROJECT ("China Human Proteome Project (CNHPP)", "CNHPP", ProjectTagType.PARENT_PROJECT);
 
     private String name;
