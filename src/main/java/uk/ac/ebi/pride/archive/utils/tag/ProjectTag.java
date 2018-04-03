@@ -47,7 +47,9 @@ public enum ProjectTag {
     BD_PROTEIN_MISFOLDING_AGGREGATION_HUMAN_PROTEOME_PROJECT ("Protein Misfolding and Aggregation (B/D-HPP)", "Protein Misfolding (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     BD_STEM_CELLS_HUMAN_PROTEOME_PROJECT ("Stems Cells (B/D-HPP)", "Stems Cells (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     BD_SKELETAL_MUSCLEHUMAN_PROTEOME_PROJECT ("Skeletal Muscle Proteome (B/D-HPP)", "Skeletal Muscle Proteome (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
-    BD_TOXICOPROTEOMICS_HUMAN_PROTEOME_PROJECT ("Toxicoproteomics (B/D-HPP)", "Toxicoproteomics (B/D-HPP)", ProjectTagType.PARENT_PROJECT);
+    BD_TOXICOPROTEOMICS_HUMAN_PROTEOME_PROJECT ("Toxicoproteomics (B/D-HPP)", "Toxicoproteomics (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
+    HPP_MS_RESOURCE_PILLAR_2018("HUPO-HPP-MSResourcePillar2018", "MS Resource Pillar 2018 (HUPO-HPP)", ProjectTagType.PARENT_PROJECT);
+
     private String name;
     private String shortName;
     private ProjectTagType type;
