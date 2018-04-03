@@ -46,9 +46,11 @@ public enum ProjectTag {
     BD_PLASMA_HUMAN_PROTEOME_PROJECT ("Plasma (B/D-HPP)", "HPPP (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     BD_PROTEIN_MISFOLDING_AGGREGATION_HUMAN_PROTEOME_PROJECT ("Protein Misfolding and Aggregation (B/D-HPP)", "Protein Misfolding (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     BD_STEM_CELLS_HUMAN_PROTEOME_PROJECT ("Stems Cells (B/D-HPP)", "Stems Cells (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
-    BD_SKELETAL_MUSCLEHUMAN_PROTEOME_PROJECT ("Skeletal Muscle Proteome (B/D-HPP)", "Skeletal Muscle Proteome (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
+    BD_SKELETAL_MUSCLE_HUMAN_PROTEOME_PROJECT ("Skeletal Muscle Proteome (B/D-HPP)", "Skeletal Muscle Proteome (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
     BD_TOXICOPROTEOMICS_HUMAN_PROTEOME_PROJECT ("Toxicoproteomics (B/D-HPP)", "Toxicoproteomics (B/D-HPP)", ProjectTagType.PARENT_PROJECT),
-    HPP_MS_RESOURCE_PILLAR_2018("HUPO-HPP-MSResourcePillar2018", "MS Resource Pillar 2018 (HUPO-HPP)", ProjectTagType.PARENT_PROJECT);
+    MS_RESOURCE_PILLAR_2018_HUMAN_PROTEOME_PROJECT ("MS Resource Pillar 2018 (HUPO-HPP)", "HUPO-HPP-MSResourcePillar2018", ProjectTagType.PARENT_PROJECT),
+    MITOCHONDIA_HUMAN_PROTEOME_PROJECT ("Mitochondria (HPP)", "MTHPPP", ProjectTagType.PARENT_PROJECT),
+    CHINA_HUMAN_PROTEOME_PROJECT ("China Human Proteome Project (CNHPP)", "CNHPP", ProjectTagType.PARENT_PROJECT);
 
     private String name;
     private String shortName;
