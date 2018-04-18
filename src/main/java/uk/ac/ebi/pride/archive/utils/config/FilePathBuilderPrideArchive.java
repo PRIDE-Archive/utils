@@ -10,6 +10,7 @@ import java.util.Date;
 
 public class FilePathBuilderPrideArchive implements FilePathBuilder {
 
+  // todo add Javadoc across classes
   @Override
   public String buildPublicationFilePath(
       String prefix, ProjectProvider project, ProjectFileProvider file) {
