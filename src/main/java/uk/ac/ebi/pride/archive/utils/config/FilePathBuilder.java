@@ -8,6 +8,5 @@ import uk.ac.ebi.pride.archive.dataprovider.project.ProjectProvider;
  * @version $Id$
  */
 public interface FilePathBuilder {
-    String buildPublicationFilePath(String prefix, ProjectProvider project, ProjectFileProvider file);
-
+  String buildPublicationFilePath(String prefix, ProjectProvider project, ProjectFileProvider file);
 }

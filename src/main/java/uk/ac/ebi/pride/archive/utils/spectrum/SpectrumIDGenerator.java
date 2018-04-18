@@ -8,5 +8,5 @@ package uk.ac.ebi.pride.archive.utils.spectrum;
  */
 public interface SpectrumIDGenerator {
 
-    String generate(String ... parts);
+  String generate(String... parts);
 }
