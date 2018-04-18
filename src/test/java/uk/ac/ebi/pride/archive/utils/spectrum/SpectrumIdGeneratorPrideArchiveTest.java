@@ -14,5 +14,5 @@ public class SpectrumIdGeneratorPrideArchiveTest {
         new SpectrumIdGeneratorPrideArchive();
     String id = spectrumIdGeneratorPrideArchive.generate("PXD000001", "file.mgf", "index=1");
     assertThat("Spectrum id doesn't match", id.equals("PXD000001;file.mgf;index=1"));
-  }
+  } // todo further unit test coverage
 }
